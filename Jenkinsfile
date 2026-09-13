@@ -14,7 +14,7 @@ pipeline {
                 bat """
                 if exist out rmdir /s /q out
                 mkdir out
-                javac -d out src\\Calculator.java
+                javac -d out Calculator.java
                 """
             }
         }
